@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
     .container {
         width: 100%;
-/*         padding: 0 15px; */
+        /*         padding: 0 15px; */
     }
     header {
         display: none;
@@ -21,6 +21,7 @@
     .hero-flex {
         flex-direction: column;
         padding: 50px 0;
+        margin: 0 15px;
     }
     .hero-left {
         padding: 0;
@@ -43,9 +44,15 @@
         display: inline-block;
     }
     section.player-sec {
+        margin: 0 15px;
         margin-bottom: 50px;
     }
     section.match-fixture-sec {
+        margin: 0 15px;
+        margin-bottom: 50px;
+    }
+    section.club-list-sec {
+        margin: 0 15px;
         margin-bottom: 50px;
     }
     .match-fixture tbody tr td {
