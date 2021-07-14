@@ -1,9 +1,164 @@
 /* google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* common css */
-body{
+
+body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* header css */
+
+nav.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.navigation a {
+    text-decoration: none;
+    padding: 12px 25px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px dashed #fff;
+    transition: .5s;
+}
+
+nav.navigation a:hover {
+    background-color: #fff;
+    color: #2D25A0;
+}
+
+header {
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    top: 26px;
+}
+
+.login-right a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #E02C6D;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 28px;
+    border: 1px solid #E02C6D;
+    transition: .3s;
+}
+
+.login-right img {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+
+nav.navigation li {
+    margin-left: 10px;
+    position: relative;
+}
+
+nav.navigation li:first-child {
+    margin-left: 0;
+}
+
+.navigation li:before {
+    position: absolute;
+    top: 50%;
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+    left: -10px;
+}
+
+nav.navigation li:first-child:before {
+    display: none;
+}
+
+
+/* hero css */
+
+.hero-sec {
+    background: #2D25A0;
+    height: 677px;
+    position: relative;
+}
+
+.hero-flex {
+    display: flex;
+    align-items: center;
+    padding-top: 170px;
+    justify-content: space-between;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-left h2 {
+    font-size: 64px;
+    color: #fff;
+    margin: 0;
+    line-height: 80px;
+}
+
+.hero-left {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.hero-left h2 {
+    font-size: 64px;
+    color: #fff;
+    margin: 0;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+
+.hero-left {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.hero-left a {
+    background-color: #E02C6D;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    transition: .3s;
+}
+
+.hero-left a:hover {
+    background-color: #fff;
+    color: #E02C6D;
+}
+
+.hero-left a i {
+    margin-left: 5px;
 }
