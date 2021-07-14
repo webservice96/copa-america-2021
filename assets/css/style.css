@@ -250,3 +250,98 @@ nav.navigation li:first-child:before {
     font-weight: 500;
     margin-left: 10px;
 }
+
+
+/* match fixture section css */
+
+.match-fixture-sec {
+    margin-bottom: 80px;
+}
+
+.match-fixture {
+    position: relative;
+    background-image: url('../img/match-bg.jpg');
+    background-size: cover;
+    z-index: 1;
+    padding: 20px 0;
+}
+
+.match-bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    border-collapse: collapse
+}
+
+.match-fixture tbody tr:nth-child(2n) td {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.match-fixture tbody tr td {
+    padding: 7px 0px;
+    position: relative;
+    z-index: 11;
+}
+
+.match-fixture tbody tr td:nth-child(2n) {
+    color: #E02C6D;
+}
+
+.buy-tkt {
+    text-decoration: none;
+    color: #E02C6D;
+    transition: .3s;
+}
+
+.buy-tkt:hover {
+    color: #fff;
+}
+
+
+/* footer css */
+
+.site-footer {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer.logo {
+    width: 370px;
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 18px;
+    background-color: #ddd;
+    padding: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 27px;
+    color: #333;
+    transition: .4s;
+}
+
+.social-icons a:hover {
+    background-color: #2D25A0;
+    color: #fff;
+}
