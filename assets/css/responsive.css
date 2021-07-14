@@ -68,4 +68,8 @@
     footer.site-footer {
         padding: 30px 0;
     }
+    
+    .footer.logo {
+        width: 300px;
+    }
 }
