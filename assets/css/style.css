@@ -20,6 +20,29 @@ img {
     margin: 0 auto;
 }
 
+.section-title {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 44px;
+    position: relative;
+}
+
+.section-title:before,
+.section-title:after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #999999;
+    height: 4px;
+    content: "";
+    bottom: -14px;
+}
+
+.section-title:after {
+    background-color: #E02C6D;
+    width: 50%;
+}
+
 
 /* header css */
 
@@ -193,4 +216,37 @@ nav.navigation li:first-child:before {
 
 .player p {
     margin-top: 0;
+}
+
+
+/* club list css */
+
+.club-list-sec {
+    margin-bottom: 80px;
+}
+
+.club-lists {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.club {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-left: 7px solid #2D25A0;
+}
+
+.club i {
+    color: #E02C6D;
+    font-size: 25px;
+}
+
+.club span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
 }
