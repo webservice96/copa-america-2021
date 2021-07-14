@@ -142,6 +142,11 @@ nav.navigation li:first-child:before {
 
 .hero-right {
     width: 50%;
+    transition: .5s;
+}
+
+.hero-right:hover {
+    transform: rotate(45deg);
 }
 
 .hero-left h2 {
